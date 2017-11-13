@@ -1,0 +1,103 @@
+.strategyheader{
+	background-image: url(strategybg.jpg);
+	background-size: 100% 100%;
+}
+.str_title{
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: 90px
+}
+.str_content{
+	font-size: 24px;
+	text-align: center;
+	line-height: 40px
+}
+.str_contentlast{
+	font-size: 24px;
+	text-align: center;
+	line-height: 40px;
+	margin-bottom: 92px
+
+}
+.str_parttwo{
+	background-color: #eaf3ff;
+}
+.strtwo_title{
+	font-size: 36px;
+	text-align: center;
+	padding-bottom: 60px;
+	padding-top: 90px
+}
+.strtwoimgwrap{
+	width: 73%;
+	margin: 0 auto
+}
+.strtwoimgwrapleft{
+	float: left;
+	width: 40%;
+}
+.strtwoimgwrapright{
+	float: right;
+	width: 40%;
+}
+.strwrap{
+	width: 80%;
+	margin: 0 auto
+}
+.strfont{
+	text-align: left;
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 90px;
+	//color: white
+}
+.leftborder{
+	background-color: #227af7;
+	width: 70.5%;
+	height: 90px;
+	margin-top: -15%;
+}
+.s_fontOne{
+	font-size: 22px;
+	margin-left: 24px;
+	color: white
+}
+.s_fonttwo{
+	width: 88%;
+	margin-left: 24px;
+	text-align: left;
+	color: white;
+	font-size: 14px
+}
+.S_fwrap{
+	width: 80%;
+	margin: 0 auto
+}
+.companyimg{
+	width: 100%
+}
+.newborderstyle{
+	width: 73%;
+	margin: 0 auto
+}
+.leftbordernew{
+	padding-top: 2%;
+	margin-left: -2%;
+	float: left;
+	background-color: #227af7;
+	width:40%;
+	height: 90px;
+	margin-bottom: 90px;
+	margin-top: -6%;
+}
+.rightbordernew{
+	padding-top: 2%;
+	margin-right: 2%;
+	float: right;
+	background-color: #227af7;
+	width:40%;
+	height: 90px;
+	margin-bottom: 90px;
+	margin-top: -6%;
+}

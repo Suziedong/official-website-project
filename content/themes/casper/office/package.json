@@ -1,0 +1,15 @@
+{
+  "name": "offical",
+  "version": "1.0.0",
+  "description": "\"my first package\"",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dongshx",
+  "license": "ISC"
+}

@@ -1,0 +1,445 @@
+*{margin:0;padding:0};
+img{border:none}
+
+.wholePage{
+	width: 100%
+}
+.header{
+	background-image: url(backgroud.jpg);
+	background-size: 100% 100%;
+}
+.headerContent{
+	height:877px;
+	width: 100%;
+	margin:0 auto;
+}
+.footer{
+	background-color: #227af7;
+	border : 1px solid #227af7;
+	//height : 300px;
+	width: 100%
+}
+.img{
+	width: 100%
+}
+
+.companame{
+	color: white;
+}
+.companame{
+	height: 50px
+}
+.companame{
+	padding-top: 15px;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	border-top: 0.5px solid white
+}
+.aboutusleft{
+	float: left;
+	width: 30%
+}
+.aboutusright{
+	float: right;
+	width: 70%;
+	margin-left:20%;
+}
+.clear{
+	clear: both;
+}
+.footerleftfont{
+	position: absolute;
+	left: 40%
+}
+.footerrightfont{
+	position: absolute;
+	left: 60%
+}
+
+.stratifydfont, .platformfont{
+	color: white;
+	text-align: center;
+}
+.stratifydfont{
+	padding-top: 174px;
+	padding-bottom: 48px;
+	text-align: center;
+	font-size: 70px;
+}
+.platformfont{
+	font-size: 40px;
+	padding-bottom: 127px;
+}
+.startButton{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	width: 240px;
+	height: 43px;
+	border: 1px solid #00387e;
+	margin: 0 auto;
+	background-color: #00387e;
+
+}
+.webNav {
+	height: 81px;
+	width: 100%;
+	text-align: center;
+}
+#nav {
+	position: absolute;
+	top:24px;
+	height: 81px;
+	margin-left: 180px
+}
+.logo{
+	position: absolute;
+	top:24px;
+	color: white
+}
+
+#nav ul {   
+	width:100%;
+	height：81px; 
+	list-style:none;
+	color: white;
+	margin: 0 auto;
+	padding:0;
+
+}
+#nav li {
+	float:left;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	padding-right: 120px
+}
+
+.anotherbutton {
+	position: relative;
+	width: 240px;
+	height: 43px;
+	border: 1px solid #227af7;
+	background-color: #227af7;
+	top:-25px;
+	right: -15px;
+	z-index: -6
+
+}
+.companyinfo{
+	width: 80%;
+	height: 245px;
+	margin: 0 auto;
+	//border-bottom: 0.5px solid white;
+	overflow:hidden; 
+}
+.pic{
+	float: left;
+	width: 25%;
+	margin-left:5%;
+}
+/*.aboutus{
+	height: 326px;
+	margin-left: 14%
+}*/
+.aboutus{
+	margin-top: 25px;
+	color: white;
+	float: left;
+	width: 20%;
+	margin-left: 7%
+
+}
+.contactus{
+	margin-top: 25px;
+	color: white;
+	float: right;
+	width: 40%;
+	//border: 1px solid red
+}
+.guanyuwomen{
+	font-size: 24px;
+	margin-bottom: 25px
+}
+.restfont{
+	font-size: 16px;
+	margin-bottom: 5px
+}
+.navlogo{
+	width: 14.3%;
+	float: left;
+	color: white;
+	text-decoration:none;
+ 	font-size: 20px;
+ 	margin-top: 24px;
+
+}
+
+.webNav  a {
+	line-height: 40px;
+	color:white;
+ 	text-decoration:none;
+ 	font-size: 20px
+}
+
+.webNav a:hover {
+display:block; 
+color:#FFFFFF; 
+//background:#227af7;
+}
+.iconimgwrap{
+	width: 100%;
+	margin-left: -10%;
+	background-color: #227af7;
+	position: relative;
+	margin-top: 25px
+}
+.iconimg{
+	width: 30%;
+
+}
+
+.nameimg {
+	width: 40%;
+	position: relative;
+	top:-20px;
+
+}
+#companyimg{
+	width: 100%;
+}
+.clientTrustFont{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 108px
+}
+
+.clientTrustLogoGroup{
+	width: 100%;
+	margin: 0 auto;
+}
+.clientTrustLogoGroupFirst{
+	//border: 1px solid black
+}
+.clientTrustLogoGroupFirstWrap{
+	float: left;
+	text-align: center;
+	width: 14%;
+	
+}
+.clientTrustLogoGroupFirstimg{
+	width: 100%;
+	text-align: center;
+}
+.firstBorder{
+	border: 1px solid #d2d2d2;
+	border-left-style: none;
+	border-top-style: none
+
+}
+.thirdBorder{
+	border-bottom-style: none;
+	border: 1px solid #d2d2d2;
+	border-left-style: none;
+	border-top-style: none;
+	border-bottom-style: none
+}
+.lastBorder{
+	border-right-style: none
+}
+.clientTrustContent{
+	padding-top: 111px;
+	padding-bottom: 163px;
+	width: 100%;
+	margin: 0 auto
+}
+.infoFont{
+	margin: 0 auto;
+	width: 80%;
+	font-size: 24px;
+	line-height: 32px
+}
+.mainButton{
+	text-decoration:none;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	width: 240px;
+	height: 43px;
+	border: 1px solid #00387e;
+	margin: 0 auto;
+	background-color: #00387e;
+}
+.clientRate{
+
+}
+.clientValue{
+	text-align: center;
+	font-size: 36px;
+	margin-top: 90px;
+	margin-bottom: 90px
+}
+.tableValue{
+	width: 80%;
+	margin: 0 auto
+}
+.clientLogo{
+	width: 100%;
+}
+.clientLogoLeft{
+	float: left;
+	width: 30%;
+	margin-left: 15%
+}
+.clientLogoRight{
+	float: left;
+	width: 30%;
+	margin-left: 10%
+}
+.intuitWrap{
+	height: 214px;
+	margin-bottom: 40px
+}
+.intuitfont{
+	font-size: 18px;
+	line-height: 30px;
+	color: #000000
+}
+.companyimg{
+	width: 50%
+}
+.intuitlogo{
+	text-align: center;
+	margin-bottom: 20px
+}
+.dataAbilityFont{
+	margin-top:90px;
+	margin-bottom: 90px;
+	text-align: center;
+	font-size: 36px
+}
+.newimg{
+	width: 60%
+}
+.newimgwrapdiv{
+	float: left;
+	width: 25%;
+	text-align: center;
+	margin-bottom: 70px
+}
+.visialInterface{
+	background-color: red
+}
+.visialInterfaceFont{
+	text-align: center;
+	font-size: 36px;
+	color: white;
+	background-color: #183da7;
+	padding-top: 70px;
+	padding-bottom: 40px
+}
+.index_imgwrapwhole{
+	width: 100%;
+}
+.index_imgwrapone{
+	width: 100%;
+	margin: 0 auto
+}
+.kuhucunliuWrap{
+	float: left;
+	width: 34%;
+	margin-left: 19%
+}
+.kehuzhijianWrap{
+	float: left;
+	width: 34%;
+	margin-left: 2%
+}
+.kehucunliuimg{
+	width: 80%
+}
+.index_imgwraptwo{
+	margin-top: 60px;
+}
+.tanpin{
+	display: none
+}
+.hangyewrap{
+	padding-bottom: 20px
+}
+#tanpin{
+	position: absolute;
+	top:0;
+	right: 0
+}
+.whatwrap{
+	width: 82%;
+	margin:0 auto;
+	background-color: #183da7;
+	padding-bottom: 92px;
+}
+.whatfont{
+	float: left;
+	text-align: center;
+	font-size: 22px;
+	width: 33%;
+	color:white;
+}
+.borderwrap{
+	background-color: #227af7;
+	border: 1px solid #227af7;
+	width: 75%;
+	height: 50px;
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+	margin-top: -12%;
+	margin-left: -5%;
+	margin-bottom: 5%
+}
+.borderwraplast{
+	background-color: #227af7;
+	border: 1px solid #227af7;
+	width: 75%;
+	height: 50px;
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+	margin-bottom: 92px;
+	margin-top: -12%;
+	margin-left: -5%
+}
+.anotherimgwrap{
+	width: 72%;
+	margin-top: 3%
+}
+.weiwrap{
+	float: left;
+	width: 43%
+}
+.nowrap{
+	float: right;
+	width: 43%
+}
+.weichatimg{
+	width: 100%;
+}
+.weiboimg{
+	width: 100%;
+}
+.xinlangimg{
+	width: 100%
+}
+.footerimg{
+	width: 100%
+}
+.anotherlink{
+	text-decoration: none;
+	color: white;
+	font-size: 22px
+}
+
+
+
+

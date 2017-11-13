@@ -1,0 +1,95 @@
+.kehuheader{
+	background-image: url(liucunbg.jpg);
+	background-size: 100% 100%;
+}
+.kehustartButton{
+	text-decoration:none;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	width: 240px;
+	height: 43px;
+	border: 0.5px solid white;
+	margin: 0 auto;
+}
+.kehumainButton{
+	text-decoration:none;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	width: 240px;
+	height: 43px;
+	margin: 0 auto;
+}
+.kehufontone{
+	text-align: center;
+	font-size: 24px;
+	margin-top: 90px;	
+}
+.kehufonttwo{
+	text-align: center;
+	font-size: 24px;
+	line-height: 38px	
+
+}
+.kehufontthree{
+	text-align: center;
+	font-size: 24px;
+	line-height: 38px	
+}
+.kehufontfour{
+	text-align: center;
+	font-size: 36px;
+	margin-top: 90px;
+	margin-bottom: 60px
+}
+.kehufontfive{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 90px
+}
+.kehuleft{
+	width: 100%;
+    margin: 0 auto;
+
+}
+.kehuright{
+	width: 100%;
+    margin: 0 auto;
+}
+.circleimgWrap{
+	margin-bottom: 40px
+}
+.shxianmubiao{
+	text-align: center;
+	font-size: 26px;
+	padding-bottom: 40px
+}
+.sixianmubiaofontone{
+	text-align: center;
+	font-size: 16px;
+	line-height: 30px
+}
+.sixianmubiaofontthree{
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 60px
+}
+.one{
+	padding-top: 20px
+}
+.fangwrap{
+	width: 80%;
+	margin: 0 auto
+}
+.parafang{
+	font-size: 16px;
+	text-align: left;
+	line-height: 30px
+}
+.parafangti{
+	font-size: 20px;
+	line-height: 38px;
+	text-align: left
+}

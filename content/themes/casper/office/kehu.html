@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Stratifyd</title>
+	<link type="text/css" rel='stylesheet' href='static/css/mainPage.css'>	
+	</link>
+	<link type="text/css" rel='stylesheet' href='static/css/kehu.css'>	
+	</link>
+	<script type="text/javascript">
+		window.onload=function(){ 
+			var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+			var browser = navigator.userAgent.toLowerCase();
+			var isMobile = false;
+			for (var i=0; i<mobileAgent.length; i++){ 
+				if (browser.indexOf(mobileAgent[i])!=-1){ 
+				isMobile = true;
+				document.getElementById('kehuchange').style.marginTop = '3%';
+				break; 
+				} 
+			}
+		}
+	</script>
+	<style type="text/css">
+		@font-face {
+		    font-family: "SourceHanSansSC";
+		    src: url('static/utils/SourceHanSansSC-Regular.otf');
+		}
+		@font-face {
+		    font-family: "OpenSans";
+		    src: url('static/utils/OpenSans-Regular.ttf');    
+		}
+		@font-face {
+		    font-family: "ProductSans";
+		    src: url('static/utils/ProductSans-Regular.ttf');    
+		}
+		body {
+			font-family: "OpenSans","SourceHanSansSC",Arial,'黑体';
+		}
+		.stratifydfont{
+			font-family: "ProductSans"
+		}
+	</style>
+</head>
+<body>
+	<div class="wholePage">
+		<div class="kehuheader">
+			<div class="headerContent">
+				<div class="webNav">
+					<div class="navlogo"></div>
+					<div class="navlogo" id="kehuchange"><img src='static/imgs/logo.png'  id='companyimg'/></div>
+					<div class="navlogo"><a href="index.html">首页</a></div>
+					<div class="navlogo"><a href="coretech.html">核心技术</a></div>
+					<div class="navlogo"><a href="companyinfo.html">公司简介</a></div>
+					<div class="navlogo"><a href="aboutus.html">联系我们</a></div>
+					<div class="navlogo"></div>
+					<div class="clear"></div>
+				</div>
+				<div class="stratifydfont">Stratifyd</div>
+				<div class="platformfont">全 球 领 先 的 增 强 智 能 大 数 据 分 析 平 台</div>
+				<div type="button" >
+					<div class="kehustartButton"><a href="https://alpha.stratifyd.cn"
+						class="kehumainButton">开始试用</a>
+					<div class='anotherbutton' ></div>
+				</div>
+					
+				</div>				
+			</div>
+		</div>
+		<div class="body">
+			<div class="kehufontone">
+				<div class="fangwrap">
+					<p class="parafangti">Stratifyd平台依托深度学习分析文本的技术优势，帮助客服中心深入了解用户客诉痛点问题，提高其用户的客户粘性，加强企业竞争力，释放客服部门数据分析潜能，为客户服务中心带来数据分析优化的全面增值。</p>
+				</div>
+			<!-- 	</div>
+			Stratifyd平台依托深度学习分析文本的技术优势，帮助客服中心深入</div>
+			<div class="kehufonttwo">了解用户客诉痛点问题，提高其用户的客户粘性，加强企业竞争力，释放客服部门数据</div>
+			<div class="kehufontthree">分析潜能，为客户服务中心带来数据分析优化的全面增值。</div> -->
+			<div class="kehufontfour">提高现有客户留存率</div>
+			<div class="kehufontfive">
+				<div class="kehuleft">
+					<div class="circleimgWrap">
+						<img src='static/imgs/circleone.jpg' class="circleimg" />
+					</div>
+					<div class="shxianmubiao">实现路线</div>
+					<div class="sixianmubiaofontone">Stratifyd智能分类忠诚客户及摇摆客户</div>
+					<div class="sixianmubiaofontone">挖掘摇摆客户投诉关键点</div>
+					<div class='sixianmubiaofontthree'>实时进行、实时调整客户关怀方案</div>
+					
+				</div>
+				<div class="kehuright">
+					<div class="circleimgWrap">
+						<img src='static/imgs/circletwo.jpg' class="circleimg" />
+					</div>
+					<div class="shxianmubiao">详细方案</div>
+					<div class="fangwrap">
+						<p class="parafang">客户忠诚度分类——我们利用Stratifyd平台研发的客户忠诚度模型，通过对话中的内容并结合其他维度数据对忠诚客户和摇摆客户进行区分。挖掘摇摆客户投诉关键点——企业利用Stratifyd平台的非结构化文本分析、焦点聚类等功能特性，深入挖掘摇摆客户抱怨及投诉原因，以期能够高效、快速消除摇摆客户顾虑,实时进行客户关怀——借助Stratifyd平台定向监控模型，我们可以明确摇摆客户关怀及补偿方式、高效转换摇摆客户至忠诚客户。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class='companyinfo'>
+				<div class="pic">
+					<div class="iconimgwrap">
+						<img src='static/imgs/footerimg.jpg' class="footerimg" />
+					</div>
+					<div class="anotherimgwrap">
+						<div class="weiwrap">
+							<img src='static/imgs/weixinerweima.jpg' class="weichatimg" />
+						</div>
+						<div class="nowrap">
+							<img src='static/imgs/weiboerweima.jpg' class="weiboimg" />
+						</div>
+						<div class="clear"></div>
+					</div>		
+				</div>
+				<div class='aboutus'>
+					<div class="guanyuwomen">关于我们</div>
+					<div class="restfont">公司简介</div>
+					<div class="restfont">公司动态</div>
+					<div class="restfont">诚招英才</div>
+					<div class="restfont">加入我们</div>					
+				</div>
+				<div class="contactus">
+				    <div class="guanyuwomen">联系我们</div>
+				    <div class="restfont">北京 : 北京市朝阳区东大桥路8号尚都国际中心A座1205</div>
+				    <div class="restfont">邮箱 : support@stratifyd.cn</div>
+				    <div class="restfont">美国 : North Carolina</div>
+				    <div class="restfont">邮箱 : webcontact@stratifyd.com</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class='companame'>
+				<div>Copyright 2017 Stratifyd 京ICP备16047354号</div>
+				<script type="text/javascript">
+				var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+				document.write(unescape("%3Cspanid='cnzz_stat_icon_1265329096'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1265329096%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+				</script>
+
+			</div>	
+		</div>
+	</div>
+	
+</body>
+</html>

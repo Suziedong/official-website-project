@@ -1,0 +1,93 @@
+.zhijianheader{
+	background-image: url(zijianbg.jpg);
+	background-size: 100% 100%;
+}
+.jiankongtitle{
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 60px;
+	margin-top: 90px
+
+}
+.jiankongfont{
+	text-align: center;
+	font-size: 24px;
+	line-height: 36px
+}
+.jiankongfontlast{
+	margin-bottom: 92px;
+	text-align: center;
+	font-size: 24px;
+	line-height: 36px
+}
+.global{
+	background-color: #eaf3ff;
+}
+.globalfont{
+	text-align: center;
+	font-size: 36px;
+	padding-top: 90px;
+	margin-bottom: 60px
+}
+.globalpartone{
+	float: left;
+	width: 26%;
+	margin-left: 8%
+}
+.globalparttwo{
+	float: left;
+	margin-left: 2%;
+	width: 26%
+}
+.globalpartthree{
+	float: left;
+	margin-left: 2%;
+	color: #6a9ef9;
+	width: 26%
+}
+.globalpartonefontone{
+	text-align: right;
+	color: #6a9ef9;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 26px
+}
+.globalpartonefonttwo{
+	text-align: right;
+	color: #6a9ef9;
+	line-height: 24px;
+	font-size: 16px
+}
+.globalpartonefontthree{
+	text-align: right;
+	color: #6a9ef9;
+	line-height: 24px;
+	font-size: 16px
+}
+
+.globalparttwofontone{
+	font-size: 26px;
+	text-align: left;
+	margin-bottom: 20px;
+	margin-top: 64px
+}
+.globalparttwofonttwo{
+	font-size: 16px;
+	text-align: left;
+	line-height: 24px;
+}
+.zhijiankefuimg{
+	width: 100%
+}
+.globalimgwrap{
+	padding-bottom: 90px
+}
+.test{
+	width: 80%;
+	margin: 0 auto
+}
+.para{
+	text-align: left;
+	font-size: 20px;
+	margin-bottom: 90px
+}

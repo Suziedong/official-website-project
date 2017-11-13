@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Stratifyd</title>
+	<link type="text/css" rel='stylesheet' href='static/css/mainPage.css'>	
+	</link>
+	<link type="text/css" rel='stylesheet' href='static/css/zhijian.css'>	
+	</link>
+	<link type="text/css" rel='stylesheet' href='static/css/coretech.css'>	
+	</link>
+	<script type="text/javascript">
+		window.onload=function(){ 
+			var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+			var browser = navigator.userAgent.toLowerCase();
+			var isMobile = false;
+			for (var i=0; i<mobileAgent.length; i++){ 
+				if (browser.indexOf(mobileAgent[i])!=-1){ 
+				isMobile = true;
+				document.getElementById('zhijianchange').style.marginTop = '3%';
+				break; 
+				} 
+			}
+		}
+	</script>
+	<style type="text/css">
+		@font-face {
+		    font-family: "SourceHanSansSC";
+		    src: url('static/utils/SourceHanSansSC-Regular.otf');
+		}
+		@font-face {
+		    font-family: "OpenSans";
+		    src: url('static/utils/OpenSans-Regular.ttf');    
+		}
+		@font-face {
+		    font-family: "ProductSans";
+		    src: url('static/utils/ProductSans-Regular.ttf');    
+		}
+		body {
+			font-family: "OpenSans","SourceHanSansSC",Arial,'黑体';
+		}
+		.stratifydfont{
+			font-family: "ProductSans"
+		}
+	</style>
+</head>
+<body>
+	<div class="wholePage">
+		<diV class='zhijianheader'>
+			<div class="headerContent">
+				<div class="webNav">
+					<div class="navlogo"></div>
+					<div class="navlogo" id="zhijianchange"><img src='static/imgs/logo.png'  id='companyimg'/></div>
+					<div class="navlogo"><a href="index.html">首页</a></div>
+					<div class="navlogo"><a href="coretech.html">核心技术</a></div>
+					<div class="navlogo"><a href="companyinfo.html">公司简介</a></div>
+					<div class="navlogo"><a href="aboutus.html">联系我们</a></div>
+					<div class="navlogo"></div>
+					<div class="clear"></div>
+				</div>
+				<div class="stratifydfont">Stratifyd</div>
+				<div class="platformfont">全 球 领 先 的 增 强 智 能 大 数 据 分 析 平 台</div>
+				<div type="button" >
+					<div class="coretechstartButton"><a href="https://alpha.stratifyd.cn"
+						class="coretechmainButton">开始试用</a>
+					<div class='anotherbutton' ></div>
+				</div>	
+				</div>				
+			</div>
+		</diV>
+		<div class="body">
+			<div class="jiankong">
+				<div class="jiankongtitle">Stratifyd监控客服质检</div>
+				<div class="test">
+					<div><p class="para">解决用户诉求、减少人为纰漏提高接通和运作效率、提高用户满意度、掌握呼叫中心运营情况,建立全面的客服评价体系,通过客服有关的业务数据、话务数据，进行建模分析Stratifyd平台不仅有成熟的人工智能语义分析引擎，同时可灵活处理各种结构化数据，帮助企业或相关部门从多个角度挖掘数据背后的意义。</p></div>
+				</div>	
+			</div>
+			<div class="global">
+				<div class="globalfont">全球领先的智能大数据评估系统</div>
+				<div class="globalimgwrap">
+					<div class="globalpartone">
+						<div class="globalpartonefontone">人工客服评估</div>
+						<div class="pingguwrap">
+							<p class="globalpartonefonttwo">Stratifyd研发的客服综合评分系统，利用访客与客服之间的多维度文本数据：遗漏对话情况、聊天时长、接待会话数、情感值等，对客服进行综合评估，达到100%实时质检，提高内部管理。</p>
+						</div>
+					<!-- 	<div class="globalpartonefonttwo">Stratifyd研发的客服综合评分系统，利用访客与客服之间的</div>
+						<div class="globalpartonefonttwo">多维度文本数据：遗漏对话情况、聊天时长、接待会话</div>
+						<div class="globalpartonefonttwo">数、情感值等，对客服进行综合评估，达到100%</div>
+						<div class="globalpartonefontthree">实时质检，提高内部管理。</div> -->			
+					</div>
+					<div class="globalparttwo">
+						<a href="https://alpha.stratifyd.cn"><img src='static/imgs/zhijiankefu.jpg'  class="zhijiankefuimg"/></a>
+					</div>
+					<div class="globalpartthree">
+						<div class="globalparttwofontone">机器人客服</div>
+						<div>
+							<p class="globalparttwofonttwo">通过分析访客与智能机器人互动文本，提取与识别出所有机器人未能解决的对话类型，全方位评估智能机器人回答问题的质量和效率。</p>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="footer">
+			<div class='companyinfo'>
+				<div class="pic">
+					<div class="iconimgwrap">
+						<img src='static/imgs/footerimg.jpg' class="footerimg" />
+					</div>
+					<div class="anotherimgwrap">
+						<div class="weiwrap">
+							<img src='static/imgs/weixinerweima.jpg' class="weichatimg" />
+						</div>
+						<div class="nowrap">
+							<img src='static/imgs/weiboerweima.jpg' class="weiboimg" />
+						</div>
+						<div class="clear"></div>
+					</div>		
+				</div>
+				<div class='aboutus'>
+					<div class="guanyuwomen">关于我们</div>
+					<div class="restfont">公司简介</div>
+					<div class="restfont">公司动态</div>
+					<div class="restfont">诚招英才</div>
+					<div class="restfont">加入我们</div>					
+				</div>
+				<div class="contactus">
+				    <div class="guanyuwomen">联系我们</div>
+				    <div class="restfont">北京 : 北京市朝阳区东大桥路8号尚都国际中心A座1205</div>
+				    <div class="restfont">邮箱 : support@stratifyd.cn</div>
+				    <div class="restfont">美国 : North Carolina</div>
+				    <div class="restfont">邮箱 : webcontact@stratifyd.com</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class='companame'>
+				<div>Copyright 2017 Stratifyd 京ICP备16047354号</div>
+				<script type="text/javascript">
+				var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+				document.write(unescape("%3Cspanid='cnzz_stat_icon_1265329096'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1265329096%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+				</script>
+
+			</div>	
+		</div>
+	</div>
+
+	
+</body>
+</html>

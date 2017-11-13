@@ -1,0 +1,95 @@
+.yingxiaoheader{
+	background-image: url(yingxiaobg.jpg);
+	background-size: 100% 100%;
+}
+.yingxiao_partone{
+	width: 100%;
+	margin: 0 auto
+}
+.changjintitle{
+	text-align: center;
+	font-size: 36px;
+	margin-top: 90px;
+	margin-bottom: 60px
+}
+.changjincontent{
+	text-align: center;
+	font-size: 24px;
+	line-height: 40px
+}
+.changjincontentlast{
+	margin-bottom: 90px;
+	text-align: center;
+	font-size: 24px;
+	line-height: 40px
+}
+.yingxiao_yinxiangli{
+	background-color: #eaf3ff;
+	width: 100%
+}
+.yinxiangtitle{
+	font-size: 36px;
+	text-align: center;
+	padding-top: 90px
+}
+.dyinxiangcontent{
+	width: 100%;
+}
+.dyingxiao_partone{
+	margin-top: 60px;
+	//float: left;
+	width: 100%;
+	margin: 0 auto
+	//margin-left: 20%
+}
+.dyingxiao_parttwo{
+	margin-top: 60px;
+	//float: left;
+	width: 100%;
+	margin: 0 auto
+	//margin-left: 20%
+}
+.shixianluxian{
+	text-align: center;
+	font-size: 26px;
+	margin-bottom: 50px
+}
+.shi_content{
+	text-align: center;
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 3px
+}
+.shi_contentlast{
+	margin-bottom: 90px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+}
+.shixianlogo{
+	text-align: center;
+	margin-bottom: 60px
+}
+.shiwrap{
+	width: 80%;
+	margin: 0 auto
+}
+p{
+	margin: 0px
+}
+.shifont{
+	line-height: 28px;
+	text-align: left;
+	font-size: 18px;
+	padding-bottom: 90px
+}
+.changwrap{
+	width: 80%;
+	margin: 0 auto
+}
+.changfont{
+	text-align: left;
+	font-size: 20px;
+	line-height: 40px;
+	margin-bottom: 90px
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link type="text/css" rel='stylesheet' href='static/css/mainPage.css'>		
+	</link>
+	<link type="text/css" rel='stylesheet' href='static/css/aboutus.css'>		
+	</link>
+	<script type="text/javascript">
+		window.onload=function(){ 
+			var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+			var browser = navigator.userAgent.toLowerCase();
+			var isMobile = false;
+			for (var i=0; i<mobileAgent.length; i++){ 
+				if (browser.indexOf(mobileAgent[i])!=-1){ 
+				isMobile = true;
+				document.getElementById('aboutchange').style.marginTop = '3%';
+				break; 
+				} 
+			}
+		}
+	</script>
+	<style type="text/css">
+		@font-face {
+		    font-family: "SourceHanSansSC";
+		    src: url('static/utils/SourceHanSansSC-Regular.otf');
+		}
+		@font-face {
+		    font-family: "OpenSans";
+		    src: url('static/utils/OpenSans-Regular.ttf');    
+		}
+		@font-face {
+		    font-family: "ProductSans";
+		    src: url('static/utils/ProductSans-Regular.ttf');    
+		}
+		body {
+			font-family: "OpenSans","SourceHanSansSC",Arial,'黑体';
+		}
+		.stratifydfontnewabout{
+			font-family: "ProductSans"
+		}
+	</style>
+	<title>Stratifyd</title>
+</head>
+<body>
+	<div class="wholePage">
+		<div class="aboutusheader">
+			<div class="headerContent">
+				<div class="webNav">
+					<div class="navlogo"></div>
+					<div class="navlogo" id='aboutchange'><img src='static/imgs/logo.png' id="companyimg" /></div>
+					<div class="navlogo"><a href="index.html">首页</a></div>
+					<div class="navlogo"><a href="coretech.html">核心技术</a></div>
+					<div class="navlogo"><a href="companyinfo.html">公司简介</a></div>
+					<div class="navlogo"><a href="aboutus.html">联系我们</a></div>
+					<div class="navlogo"></div>
+					<div class="clear"></div>
+				</div>
+				<div class="contactusfont">联系我们</div>
+				<div class="platformfont"><span class="stratifydfontnewabout">Stratifyd - </span>专 注 互 联 网 人 工 智 能 服 务</div>
+				<div type="button" >
+					<div class="startButtonCon"><a href="https://alpha.stratifyd.cn" class="tialButton">开始试用</a>
+				</div>		
+				</div>				
+			</div>
+		</div>
+		<div class="body">
+			<div class="companyAddress">地图导航</div>
+			<div class="mapimg"><img src='static/imgs/map.jpg' class="picmap" /></div>
+			<div class="mapfont">
+				<div  class="mapfontinfo">地址：北京市朝阳区东大桥路8号尚都国际中心A座1205</div>
+				<div class="mapfontinfo">电话：010-56016177</div>
+				<div class="mapfontinfo">邮箱：support@stratifyd.cn</div>
+			</div>
+			<div class="companyAddress">公司地址</div>
+			<div class="adrressinfoWrap">
+				<div class="chinainfo">
+					<div class="titlename">中国北京公司</div>
+					<div class="continfo">北京市朝阳区东大桥路8号尚都国际中心</div>
+					<div class="continfo">邮编：100020</div>
+					<div class="continfo">电话：010-56016177</div>
+					<div class="continfo">邮箱：support@stratifyd.cn</div>
+				</div>
+				<div class="englandinfo">
+					<div class="titlename">英国</div>
+					<div class="continfo">24 Cornwall Road</div>
+					<div class="continfo">Dorchester, Dorset DR1 1RX</div>
+					<div class="continfo">P. +44 (0) 7944 724920</div>
+					<div class="continfo">o.bayliss@stratifyd.com</div>
+					
+				</div>
+				<div class="northAmericainfo">
+					<div class="titlename">北美地区</div>
+					<div class="continfo">North Carolina</div>
+					<div class="continfo">1431 W. Morehead Street</div>
+					<div class="continfo">Charlotte, NC 28208</div>
+					<div class="continfo">P. 704-215-4955</div>
+					<div class="continfo">webcontact@stratifyd.com</div>
+					<div class="continfo">Silicon Valley</div>
+					<div class="continfo">4500 Great America Parkway</div>
+					<div class="continfo">Santa Clara, CA 95054</div>
+					<div class="continfo">webcontact@stratifyd.com</div>
+
+
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class='companyinfo'>
+				<div class="pic">
+					<div class="iconimgwrap">
+						<img src='static/imgs/footerimg.jpg' class="footerimg" />
+					</div>
+					<div class="anotherimgwrap">
+						<div class="weiwrap">
+							<img src='static/imgs/weixinerweima.jpg' class="weichatimg" />
+						</div>
+						<div class="nowrap">
+							<img src='static/imgs/weiboerweima.jpg' class="weiboimg" />
+						</div>
+						<div class="clear"></div>
+					</div>		
+				</div>
+				<div class='aboutus'>
+					<div class="guanyuwomen">关于我们</div>
+					<div class="restfont">公司简介</div>
+					<div class="restfont">公司动态</div>
+					<div class="restfont">诚招英才</div>
+					<div class="restfont">加入我们</div>					
+				</div>
+				<div class="contactus">
+				    <div class="guanyuwomen">联系我们</div>
+				    <div class="restfont">北京 : 北京市朝阳区东大桥路8号尚都国际中心A座1205</div>
+				    <div class="restfont">邮箱 : support@stratifyd.cn</div>
+				    <div class="restfont">美国 : North Carolina</div>
+				    <div class="restfont">邮箱 : webcontact@stratifyd.com</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class='companame'>
+				<div>Copyright 2017 Stratifyd 京ICP备16047354号</div>
+				<script type="text/javascript">
+				var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+				document.write(unescape("%3Cspanid='cnzz_stat_icon_1265329096'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1265329096%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+				</script>
+
+			</div>	
+		</div>
+	</div>
+	
+</body>
+</html>

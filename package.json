@@ -1,0 +1,23 @@
+{
+  "name": "official-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev" : " npm i -g ghost-cli && ghost install -l -d official-website",
+    "pro" : " npm i -g ghost-cli && ghost install -d official-website",
+    "start": "cd official-website && ghost start",
+    "stop" : "cd official-website && ghost stop",
+    "restart" : "cd official-website && ghost restart"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suziedong/official-website.git"
+  },
+  "author": "donshx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suziedong/official-website/issues"
+  },
+  "homepage": "https://github.com/Suziedong/official-website#readme"
+}

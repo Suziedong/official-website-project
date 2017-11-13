@@ -1,0 +1,116 @@
+
+.coretechheader{
+	background-image: url(coretechbg.jpg);
+	background-size: 100% 100%;
+}
+
+.coretechstartButton{
+	text-decoration:none;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	width: 240px;
+	height: 43px;
+	border: 0.5px solid white;
+	margin: 0 auto;
+
+}
+.coretechmainButton{
+	text-decoration:none;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	width: 240px;
+	height: 43px;
+	margin: 0 auto;
+}
+.coretech_font{
+	font-size: 36px;
+	text-align: center;
+	margin-top: 90px;
+}
+.coretechimgwrap{
+	margin-top: 90px;
+	padding-bottom: 50px
+}
+.coretechimg{
+	width: 100%
+}
+.zhinengweidu{
+	background-color: #227af7;
+}
+.coretech_zhinengfont{
+	font-size: 36px;
+	text-align: center;
+	padding-top: 92px;
+	color: white
+
+}
+.coretech_rengongfont{
+	font-size: 36px;
+	text-align: center;
+	margin-top: 92px
+}
+.rengongzhimengimgWrap{
+	width: 100%;
+	margin-top: 92px;
+	margin-bottom: 92px
+}
+.rengongzhinengpicone{
+	float: left;
+	width: 20%;
+	margin-left: 15%;
+}
+.rengongzhinengpictwo{
+	float: left;
+	width: 20%
+}
+.rengongzhinengpicthree{
+	float: left;
+	width: 20%
+}
+.rengongzhinengpicfour{
+	float: left;
+	width: 20%
+}
+.rengongimg{
+	width: 80%
+}
+.fenxijiegou{
+	margin-top: -5px;
+	text-align: center;
+	background: #227af7;
+	border:1px solid #227af7;
+	width: 79%;
+	color:white;
+	height: 60px;
+	font-size: 22px;
+	line-height: 22px;
+}
+.fenxijiegoufont{
+	margin-top: 18px;
+	font-size: 20px
+}
+.core_dongwrap{
+	width: 82%;
+	margin: 0 auto;
+	margin-left: 20%
+}
+.core_dongone{
+	float: left;
+	width: 33%;
+	color: white;
+	font-size: 22px
+}
+.core_dongtwo{
+	float: left;
+	width: 33%;
+	color: white;
+	font-size: 22px
+}
+.core_dongthree{
+	float: left;
+	width: 33%;
+	color: white;
+	font-size: 22px
+}

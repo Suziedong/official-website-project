@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Stratifyd</title>
+	<link type="text/css" rel='stylesheet' href='static/css/mainPage.css'>	
+	</link>
+	<link type="text/css" rel='stylesheet' href='static/css/companyinfo.css'>	
+	</link>
+	<script type="text/javascript">
+		window.onload=function(){ 
+			var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+			var browser = navigator.userAgent.toLowerCase();
+			var isMobile = false;
+			for (var i=0; i<mobileAgent.length; i++){ 
+				if (browser.indexOf(mobileAgent[i])!=-1){ 
+				isMobile = true;
+				document.getElementById('companyinfochange').style.marginTop = '3%';
+				break; 
+				} 
+			}
+		}
+	</script>
+	<style type="text/css">
+		@font-face {
+		    font-family: "SourceHanSansSC";
+		    src: url('static/utils/SourceHanSansSC-Regular.otf');
+		}
+		@font-face {
+		    font-family: "OpenSans";
+		    src: url('static/utils/OpenSans-Regular.ttf');    
+		}
+		@font-face {
+		    font-family: "ProductSans";
+		    src: url('static/utils/ProductSans-Regular.ttf');    
+		}
+		body {
+			font-family: "OpenSans","SourceHanSansSC",Arial,'黑体';
+		}
+		.stratifydfont{
+			font-family: "ProductSans"
+		}
+	</style>
+</head>
+<body>
+	<div class="wholePage">
+		<div class="companyinfoheader">
+			<div class="headerContent">
+				<div class="webNav">
+					<div class="navlogo"></div>
+					<div class="navlogo" id='companyinfochange'><img src='static/imgs/logo.png'  id='companyimg'/></div>
+					<div class="navlogo"><a href="index.html">首页</a></div>
+					<div class="navlogo"><a href="coretech.html">核心技术</a></div>
+					<div class="navlogo"><a href="companyinfo.html">公司简介</a></div>
+					<div class="navlogo"><a href="aboutus.html">联系我们</a></div>
+					<div class="navlogo"></div>
+					<div class="clear"></div>
+				</div>
+				<div class="stratifydfont">Stratifyd</div>
+				<div class="platformfont">全 球 领 先 的 增 强 智 能 大 数 据 分 析 平 台</div>
+				<div type="button" >
+					<div class="startButton"><a href="https://alpha.stratifyd.cn"
+						class="mainButton">开始试用</a>
+					<div class='anotherbutton' ></div>
+				</div>
+					
+				</div>				
+			</div>
+		</div>
+		<div class="body">
+			<div class="gongsijianjie">
+				<div class="con_companyintro">公司简介</div>
+				<div class="con_companycontent">
+					<div class="wordline">Stratifyd，成立于2015年，是数据科学和大数据分析行业的先驱者。我们发现对多数据渠道整合分析的需求，并能快速将其转化为行动建议。数据分析是一个高难度、耗时间的过程，读懂大数据背后的故事、分享对的故事给对的人则难上加难。我们的人工智能平台则完美解决了这个难题。Stratifyd平台通过整合多个数据源的结构化和非结构化数据，在短时间内呈现出价值非凡的商业见解，同时实现了决策者和管理人员之间的信息无缝传递。</div>
+				</div>	
+			</div>
+			<div class="jisufazhan">
+				<div class="jisufazhanintro">极速发展的 Stratifyd</div>
+				<div class="timediv">
+					<img src='static/imgs/time.jpg' class='time'/>
+				</div>
+			</div>
+			<div class="gongsiguanliceng">
+				<div class='gongsiguanlicenginfo'> 公司管理层</div>
+				<div>
+					<div class="personWholeWrap">
+						<div class="personWrap">
+							<img src='static/imgs/person1.jpg' class='person'/>
+						</div>
+						<div class="personWrap">
+							<img src='static/imgs/person2.jpg' class='person'/>
+						</div>
+						<div class="personWrap">
+							<img src='static/imgs/person4.jpg' class='person'/>
+						</div>
+						<div class="personWrap">
+							<img src='static/imgs/person3.jpg' class='person'/>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="cardborderWrap">
+						<div class="cardborder">
+							<div class="cardFont">汪晓宇(Derek) 
+							</div>
+							<div class="cardFontSend">创始人兼CEO</div>
+						</div>
+						<div class="cardborder">
+							<div class="cardFont">俞立  </div>
+							<div class="cardFontSend">数据分析副总</div>
+						</div>
+						<div class="cardborder">
+							<div class="cardFont">郭洵  </div>
+							<div class="cardFontSend">运营副总</div>
+						</div>
+						<div class="cardborder">
+							<div class="cardFont">马铭</div>
+							<div class="cardFontSend">产品副总</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="personWholeWraptwo">
+						<div class="personWrap2">
+							<img src='static/imgs/person5.jpg' class='person2'/>
+						</div>
+						<div class="personWrap2">
+							<img src='static/imgs/person6.jpg' class='person2'/>
+						</div>
+						<div class="personWrap2">
+							<img src='static/imgs/person7.jpg' class='person2'/>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="cardTwoborderWrap">
+						<div class="cardtwoborder">
+							<div class="cardTwoFont">Thomas Kraft</div>
+							<div class="cardTwoFontSen">工程副总</div>
+						</div>
+						<div class="cardtwoborder">
+							<div class="cardTwoFont">Brad Fleeman</div>
+							<div class="cardTwoFontSen">全球销售副总</div>
+						</div>
+						<div class="cardtwoborder">
+							<div class="cardTwoFont">Kevi O’Dell</div>
+							<div class="cardTwoFontSen">项目副总</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+			<div class="hezuohuoban">
+				<div class="huzuohuobaninfo">合作伙伴</div>
+				<div class="clientTrustLogoGroup">
+					<div class="clientTrustLogoGroupFirst">
+						<div class="clientTrustLogoGroupFirstWrap"><img  class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap firstBorder"><img src='static/imgs/logo1.jpg' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						firstBorder"><img src='static/imgs/logo2.jpg' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						firstBorder"><img src='static/imgs/logo3.jpg' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						firstBorder"><img src='static/imgs/logo14.jpg' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						firstBorder lastBorder"><img src='static/imgs/logo8.jpg' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap"><img  class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clear"></div>
+					</div>
+					<div class="clientTrustLogoGroupSecond">
+						<div class="clientTrustLogoGroupFirstWrap"><img  class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap firstBorder"><img src='static/imgs/logo7.jpg' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						firstBorder"><img src='static/imgs/logo5.jpg' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						firstBorder"><img src='static/imgs/logo12.jpg' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						firstBorder"><img src='static/imgs/logo10.jpg' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						firstBorder lastBorder"><img src='static/imgs/logo4.jpg' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap"><img  class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clear"></div>
+						
+					</div>
+					<div class="clientTrustLogoGroupThird">
+						<div class="clientTrustLogoGroupFirstWrap"><img  class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap thirdBorder"><img src='static/imgs/logo11.jpg' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						thirdBorder"><img src='static/imgs/logo13.jpg' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						thirdBorder"><img src='static/imgs/logo6.jpg' class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clientTrustLogoGroupFirstWrap
+						thirdBorder"><img src='static/imgs/logo9.jpg' class="clientTrustLogoGroupFirstimg" /></div>
+						
+						<div class="clientTrustLogoGroupFirstWrap"><img  class="clientTrustLogoGroupFirstimg" /></div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		<div class="footer">
+			<div class='companyinfo'>
+				<div class="pic">
+					<div class="iconimgwrap">
+						<img src='static/imgs/footerimg.jpg' class="footerimg" />
+					</div>
+					<div class="anotherimgwrap">
+						<div class="weiwrap">
+							<img src='static/imgs/weixinerweima.jpg' class="weichatimg" />
+						</div>
+						<div class="nowrap">
+							<img src='static/imgs/weiboerweima.jpg' class="weiboimg" />
+						</div>
+						<div class="clear"></div>
+					</div>		
+				</div>
+				<div class='aboutus'>
+					<div class="guanyuwomen">关于我们</div>
+					<div class="restfont">公司简介</div>
+					<div class="restfont">公司动态</div>
+					<div class="restfont">诚招英才</div>
+					<div class="restfont">加入我们</div>					
+				</div>
+				<div class="contactus">
+				    <div class="guanyuwomen">联系我们</div>
+				    <div class="restfont">北京 : 北京市朝阳区东大桥路8号尚都国际中心A座1205</div>
+				    <div class="restfont">邮箱 : support@stratifyd.cn</div>
+				    <div class="restfont">美国 : North Carolina</div>
+				    <div class="restfont">邮箱 : webcontact@stratifyd.com</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class='companame'>
+				<div>Copyright 2017 Stratifyd 京ICP备16047354号</div>
+				<script type="text/javascript">
+				var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+				document.write(unescape("%3Cspanid='cnzz_stat_icon_1265329096'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1265329096%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+				</script>
+
+			</div>	
+		</div>
+	</div>
+	
+</body>
+</html>
