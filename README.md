@@ -1,8 +1,5 @@
 # official-website-project
 
-配置 ghost 环境
-1.bash install.sh
-启动程序
-2.npm run start
-结束程序
-3.npm run stop
+1.配置 ghost 环境 :  bash install.sh
+2.启动程序 :npm run start
+3.结束程序 :npm run stop
