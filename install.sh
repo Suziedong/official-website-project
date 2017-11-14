@@ -5,7 +5,7 @@ mode="pro"
 
 
 echo npm run $mode
-#npm run $mode
+npm run $mode
 npm run stop 2>/dev/null
 
 config_file_name="config.development.json"
